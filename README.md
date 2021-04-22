@@ -17,14 +17,14 @@ git clone https://github.com/byariel95/valonde-sa.git
 
 ### Iniciar Api
 
-1)desde el directorio raiz acceda al directorio Api y instale las dependencias.
+1. desde el directorio raiz acceda al directorio Api y instale las dependencias.
 
 ```sh
 cd Api
 npm install
 ```
 
-2)puede ejecutar la aplicacion con alguno de los siguientes comandos:
+2. puede ejecutar la aplicacion con alguno de los siguientes comandos:
 
 ```sh
 npm run start
@@ -44,7 +44,7 @@ puede probar la ruta en un navegador o en un cliente como Postman, Insomnia, etc
 
 #### correr test
 
-en la ruta raiz de directorio Api/ correr el siguiente comando:
+1. en la ruta raiz de directorio Api/ correr el siguiente comando:
 
 ```sh
 npm test
@@ -54,7 +54,7 @@ npm test
 
 ### Iniciar text-app
 
-desde el directorio raiz acceda al directorio text-app y instale las dependencias.
+1. desde el directorio raiz acceda al directorio text-app y instale las dependencias.
 
 ```sh
 cd text-app
@@ -63,7 +63,7 @@ o
 yarn install
 ```
 
-para ejecutar la aplicacion ejecute alguno de los siguientes comandos:
+2. para ejecutar la aplicacion ejecute alguno de los siguientes comandos:
 
 ```sh
 npm run start

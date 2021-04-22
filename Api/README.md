@@ -1,13 +1,13 @@
 ### Iniciar Api
 
-1)desde el directorio raiz acceda al directorio Api y instale las dependencias.
+1. desde el directorio raiz acceda al directorio Api y instale las dependencias.
 
 ```sh
 cd Api
 npm install
 ```
 
-2)puede ejecutar la aplicacion con alguno de los siguientes comandos:
+2. puede ejecutar la aplicacion con alguno de los siguientes comandos:
 
 ```sh
 npm run start
