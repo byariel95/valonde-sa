@@ -1,4 +1,4 @@
-# valonde-sa
+# Valonde-sa
 
 ## Contenido
 
@@ -17,17 +17,18 @@ git clone https://github.com/byariel95/valonde-sa.git
 
 ### Iniciar Api
 
-acceda al directorio y instale las dependencias.
+1)desde el directorio raiz acceda al directorio Api y instale las dependencias.
 
 ```sh
 cd Api
 npm install
 ```
 
-puede ejecutar la aplicacion con los siguientes comandos:
+2)puede ejecutar la aplicacion con alguno de los siguientes comandos:
 
 ```sh
 npm run start
+o
 npm run dev
 ```
 
@@ -39,7 +40,7 @@ Api listening http://localhost:4500/iecho?text=palabra
 
 puede probar la ruta en un navegador o en un cliente como Postman, Insomnia, etc.
 
-> Nota: puede sustituir `palabra` por cualquier otro texto que desee.
+> Nota: al probar la ruta puede sustituir `palabra` por cualquier otro texto que desee.
 
 #### correr test
 
@@ -53,7 +54,7 @@ npm test
 
 ### Iniciar text-app
 
-acceda al directorio y instale las dependencias.
+desde el directorio raiz acceda al directorio text-app y instale las dependencias.
 
 ```sh
 cd text-app

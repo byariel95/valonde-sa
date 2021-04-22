@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Iniciar text-app
 
-acceda al directorio y instale las dependencias.
+desde el directorio raiz acceda al directorio text-app y instale las dependencias.
 
 ```sh
 cd text-app
