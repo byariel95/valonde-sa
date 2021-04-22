@@ -32,5 +32,5 @@ app.use(express.json());
 
 
 app.listen(PORT,()=> {
-    console.log(`server on port: ${PORT}`);
+    console.log(`Api listening http://localhost:${PORT}/iecho?text=palabra`);
 })

@@ -12,7 +12,11 @@ const TextGrid = ({ inputValue }) => {
   return (
     <>
       {reverseText.map((resp) => (
-        <TextItem text={resp.text} key={resp.text} />
+        <TextItem
+          text={resp.text}
+          palindrome={resp.palindrome}
+          key={resp.text}
+        />
       ))}
     </>
   );
