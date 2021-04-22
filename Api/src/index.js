@@ -16,8 +16,8 @@ app.use(express.json());
         const reverseText = text.split('').reverse().join('');
         
         text === reverseText ? 
-        res.status(200).send({"text": reverseText,"palindrome": true}) : 
-        res.status(200).send({"text": reverseText,"palindrome": false});
+        res.status(200).send([{"text": reverseText,"palindrome": true}]) : 
+        res.status(200).send([{"text": reverseText,"palindrome": false}]);
 
     } else
     {
